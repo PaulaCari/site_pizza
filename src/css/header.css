@@ -1,0 +1,58 @@
+.content {
+    background-color: #1f1e1f;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    padding-left: 30rem;  
+}
+
+.logo{
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.logo h3{
+    color: #fff;
+    font-size: 1.6rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .list-menu{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .list-menu li a{
+    padding: 3rem 1rem 2rem 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem; 
+    font-weight: 500; 
+    transition: all 200ms ease-in;  
+}
+
+.content .list-menu li a:hover{
+    background-color: #333;
+    border-bottom: 4px solid #ffc506;
+    color: #ffc506;
+}
+
+.firt-section{
+    background-color: yellow;
+    width: 100vw; /*toda a largura*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Indie Flower", cursive;
+}
