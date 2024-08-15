@@ -37,6 +37,7 @@
     color: rgb(255, 255, 255);
     font-size: 1.8rem; 
     font-weight: 500; 
+    text-transform: uppercase;
     transition: all 200ms ease-in;  
 }
 
@@ -46,13 +47,5 @@
     color: #ffc506;
 }
 
-.firt-section{
-    background-color: yellow;
-    width: 100vw; /*toda a largura*/
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Indie Flower", cursive;
-}
+
+

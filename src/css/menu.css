@@ -1,0 +1,65 @@
+.first-section{
+    height: 100vh;
+    width: 100vw;/*toda a largura*/
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url("/src/img/fundopizza.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px; /*baixa a imagem para visualizar a taça*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section .conteudo-principal{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section h1{
+    color: #ffc506;
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: indie flower,cursive;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.first-section h2{
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.first-section .btn button{
+    background-color: #ffc506;
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 4ms ease-in;
+}
+.first-section .btn button:hover {
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+}
+
+.first-section .btn{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
