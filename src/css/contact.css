@@ -1,0 +1,36 @@
+.contatos{
+    background-color: #1f1e1f;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #fff;
+    padding-bottom: 4rem;
+}
+.contatos h3{
+    font-size: 6rem ;
+    margin-bottom: 3rem;
+    font-family: indie flower, cursive;
+}
+
+.contatos .contatos-secao{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.contatos .contatos-secao div{
+    cursor: pointer;
+}
+.contatos .contatos-secao div:hover{
+    color: #ffc506;
+    transition: all 200ms ease-in ;
+
+}
+.contatos .contatos-secao i{
+    margin-right: 1rem;
+}
+
