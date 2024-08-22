@@ -20,7 +20,9 @@ li, a{
 
 html{
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden; /*não vai ter a barra horizontal*/
+    scroll-behavior: smooth;
+    background-color: #1f1e1f;
 }
